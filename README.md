@@ -1,7 +1,8 @@
 # xslide
 Jquery xSlide UI
 xSlider: Range Slider Plugin Examples
-1. Basic
+
+#1. Basic
 $('#demo1').XSlider({
     min:0,
     max:10,
@@ -15,14 +16,16 @@ new XSlider({
     max:10,
     value:5
 });
-2. Vertical
+
+#2. Vertical
 $('#demo2').XSlider({
     min:0,
     max:10,
     value:5,
     direction: 'vertical', //horizontal|vertical
 });
-3. Step Size
+
+#3. Step Size
 $('#demo3').XSlider({
     min:0,
     max:10,
@@ -32,7 +35,8 @@ $('#demo3').XSlider({
         console.log(val);
     }
 });
-4. Tooltip
+
+#4. Tooltip
 $('#demo4').XSlider({
     min:0,
     max:10,
@@ -44,7 +48,8 @@ $('#demo4').XSlider({
         return 'Val: <span style="color:red">' + val + '</span>';
     }
 });
-5. Custom slider handle
+
+#5. Custom slider handle
 $('#demo5-1').XSlider({
     min: 1,
     max: 3,
@@ -61,7 +66,8 @@ $('#demo5-2').XSlider({
     handleAutoSize: false,
     autoScroll: false,
 });
-6. Custom Styles
+
+#6. Custom Styles
 $('#demo6-1').XSlider({
     min: 1,
     max: 3,
@@ -77,7 +83,8 @@ $('#demo6-2').XSlider({
     className: 'mobile',
     handleAutoSize: false
 });
-7. Set/Get Value
+
+#7. Set/Get Value
 Set value: 2  Set handleAutoSize: true  Get value
 let slider7 = $('#demo7').XSlider({
     min: 1,
