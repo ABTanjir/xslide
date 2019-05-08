@@ -2,12 +2,12 @@
 Jquery xSlide UI
 xSlider: Range Slider Plugin Examples
 
-#1. Basic
-$('#demo1').XSlider({
-    min:0,
-    max:10,
-    value:5
-});
+##1. Basic
+-$('#demo1').XSlider({
+-    min:0,
+-    max:10,
+-    value:5
+-});
 
 // or
 new XSlider({
