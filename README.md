@@ -1,5 +1,10 @@
 # xslide
 Jquery xSlide UI
+
+- step 1: just link the js after jquery
+- step 2: link the css
+- STEP 3: you are all done
+
 xSlider: Range Slider Plugin Examples
 
 ## 1. Basic
